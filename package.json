@@ -1,0 +1,22 @@
+{
+  "name": "fndiscord",
+  "version": "1.0.0",
+  "description": "Fornite Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixelByteAG/FNDiscordBot.git"
+  },
+  "author": "PixelByte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PixelByteAG/FNDiscordBot/issues"
+  },
+  "homepage": "https://github.com/PixelByteAG/FNDiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
