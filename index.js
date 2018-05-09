@@ -10,7 +10,7 @@ var validCommands = ['help', 'fn', 'hello'];
 const token = 'NDQzNTQwMDcyMjA2MzAzMjM3.DdO2ZQ.rN7znpXm9EaQsxRGVimb5mQOfsE';
 
 bot.on('ready', () => {
-    console.log('Hello World!');
+    console.log('FortniteBR Bot is Online!');
 });
 
 bot.on('message', message => {
@@ -26,7 +26,9 @@ bot.on('message', message => {
             if(text === 'help'){
                 message.reply("if you need help, go fuck yourself.");
             }
-
+            if(text === 'fn'){
+                message.reply("Check for FN API");
+            }
 
         }else{
             message.reply("not a valid command!", message.author.name);
